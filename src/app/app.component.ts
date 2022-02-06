@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'intro-storybook-angular-template';
+
+
+onClick(event:any){
+  console.log('button click!')
+}
 }
